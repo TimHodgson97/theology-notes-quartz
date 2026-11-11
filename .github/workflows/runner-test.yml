@@ -1,0 +1,14 @@
+name: Test GitHub Runner
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Confirm runner availability
+        run: echo "GitHub runner is working"
