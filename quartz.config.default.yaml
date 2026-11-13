@@ -223,6 +223,7 @@ plugins:
         - aliases
       excludedProperties: []
       hidePropertiesView: false
+      collapsed: true
     order: 5
     layout:
       position: beforeBody

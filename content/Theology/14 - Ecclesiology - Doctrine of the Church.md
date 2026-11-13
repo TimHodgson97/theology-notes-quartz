@@ -7,7 +7,6 @@ tags:
   - ecclesiology
   - church
 ---
-# Ecclesiology: Doctrine of the Church
 
 Ecclesiology is the study of the nature, identity, mission, order, and practices of the Church.
 

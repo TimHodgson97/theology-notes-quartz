@@ -7,7 +7,6 @@ tags:
   - eschatology
   - last-things
 ---
-# Eschatology: Doctrine of Last Things
 
 Eschatology is the study of death, judgment, resurrection, Christ's return, and the final renewal of creation.
 

@@ -6,7 +6,6 @@ tags:
   - theology
   - atonement
 ---
-# Doctrine of Atonement
 
 The doctrine of atonement considers how the life, death, and resurrection of Jesus Christ reconcile sinners to God.
 

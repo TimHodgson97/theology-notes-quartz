@@ -6,7 +6,6 @@ tags:
   - theology
   - theological-anthropology
 ---
-# Theological Anthropology
 Theological anthropology is the study of humanity in relation to God. It considers human origins, nature, purpose, dignity, sin, and destiny in the light of divine revelation.
 ## What Man Is?
 ### The Imago Dei (Image of God)

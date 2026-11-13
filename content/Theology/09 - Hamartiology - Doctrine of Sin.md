@@ -7,7 +7,6 @@ tags:
   - hamartiology
   - sin
 ---
-# Hamartiology: Doctrine of Sin
 
 Hamartiology is the study of sin, including its origin, nature, extent, effects, and judgment.
 

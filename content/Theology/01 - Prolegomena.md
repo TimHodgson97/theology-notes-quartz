@@ -6,7 +6,6 @@ tags:
   - theology
   - prolegomena
 ---
-# Prolegomena
 
 ## Definition
 

@@ -7,7 +7,6 @@ tags:
   - angelology
   - demonology
 ---
-# Angelology and Demonology
 
 Angelology and demonology consider the nature, activity, and destiny of angels, demons, and Satan.
 

@@ -7,7 +7,6 @@ tags:
   - pneumatology
   - holy-spirit
 ---
-# Pneumatology: Doctrine of the Holy Spirit
 
 Pneumatology is the study of the person and work of the Holy Spirit.
 
