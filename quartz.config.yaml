@@ -109,8 +109,9 @@ plugins:
   - source: "@quartz-themes/core"
     enabled: true
     options:
-      theme: default
+      theme: scriptorium
       mode: both
+      themeFonts: true
   - source: "@quartz-community/explicit-publish"
     enabled: false
   - source: "@quartz-community/unlisted-pages"
