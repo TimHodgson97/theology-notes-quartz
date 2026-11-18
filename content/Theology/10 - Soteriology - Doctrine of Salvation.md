@@ -15,6 +15,7 @@ Discussions around Salvation very frequently devolve into disagreements because 
 Part of the difficulty in defining Salvation is that it's both an occurrence at a particular moment, a process, and an eventual state. We can speak about, "I have been saved" (Salvation Inaugurated), "I am being saved" (Salvation Being Worked Out) and "I will be saved." (Salvation Consummated)
 
 #### Salvation Inaugurated
+
 > For by grace you have been saved through faith; and this _is_ not of yourselves, _it is_ the gift of God; - Ephesians 2:8
 
 - Calling

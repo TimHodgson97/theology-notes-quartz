@@ -1,3 +1,18 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// The converted Scriptorium theme prefers a CJK font stack for paragraphs.
+// On Windows, its fallback renders curly apostrophes and quotation marks with
+// full-width spacing. Keep Scriptorium's styling but use Quartz's body font.
+.markdown-rendered {
+  --scrip-font-text: var(--bodyFont);
+}
+
+// Keep ordinary quotations compact in the published notes.
+html[saved-theme] body .markdown-rendered blockquote {
+  margin-block: 0.75rem;
+  padding-block: 0.5rem;
+
+  > p {
+    margin-block: 0;
+  }
+}
