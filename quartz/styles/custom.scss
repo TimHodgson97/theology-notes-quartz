@@ -2,9 +2,11 @@
 
 // The converted Scriptorium theme prefers a CJK font stack for paragraphs.
 // On Windows, its fallback renders curly apostrophes and quotation marks with
-// full-width spacing. Keep Scriptorium's styling but use Quartz's body font.
+// full-width spacing. Use the properly loaded IBM Plex Serif face for notes,
+// while the surrounding Quartz interface continues to use IBM Plex Sans.
 .markdown-rendered {
-  --scrip-font-text: var(--bodyFont);
+  --font-text: var(--headerFont);
+  --scrip-font-text: var(--headerFont);
 }
 
 // Keep ordinary quotations compact in the published notes.
