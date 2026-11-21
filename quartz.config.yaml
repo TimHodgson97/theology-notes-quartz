@@ -16,10 +16,19 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      title: IBM Plex Serif
-      header: IBM Plex Serif
-      body: IBM Plex Sans
-      code: IBM Plex Mono
+      title:
+        name: EB Garamond
+        weights: [500, 600, 700]
+      header:
+        name: EB Garamond
+        weights: [500, 600, 700]
+      body:
+        name: IBM Plex Sans
+        weights: [400, 600]
+        includeItalic: true
+      code:
+        name: IBM Plex Mono
+        weights: [400, 600]
     colors:
       lightMode:
         light: "#faf8f8"
@@ -107,6 +116,9 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
+    options:
+      useThemeFonts: false
+      fontOrigin: local
   - source: "@quartz-themes/core"
     enabled: true
     options:

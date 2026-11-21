@@ -1,12 +1,49 @@
 @use "./variables.scss" as *;
 
-// The converted Scriptorium theme prefers a CJK font stack for paragraphs.
-// On Windows, its fallback renders curly apostrophes and quotation marks with
-// full-width spacing. Use the properly loaded IBM Plex Serif face for notes,
-// while the surrounding Quartz interface continues to use IBM Plex Sans.
+// Match the current Obsidian Scriptorium typography. The Quartz conversion is
+// based on an older release whose heading proportions and tracking differ.
 .markdown-rendered {
-  --font-text: var(--headerFont);
-  --scrip-font-text: var(--headerFont);
+  --font-text: var(--bodyFont);
+  --scrip-font-text: var(--bodyFont);
+  --font-headings: var(--headerFont);
+  --scrip-type-h1-size: 2.16rem;
+  --scrip-type-h1-leading: 1.16;
+  --scrip-type-h1-tracking: 0;
+  --scrip-type-h2-size: 1.62rem;
+  --scrip-type-h2-leading: 1.22;
+  --scrip-type-h2-tracking: 0;
+  --scrip-type-h3-size: 1.24rem;
+  --scrip-type-h3-leading: 1.34;
+  --scrip-type-h3-tracking: 0;
+  line-height: 1.72;
+}
+
+html[saved-theme] body {
+  --color-accent-rgb: 154, 116, 47;
+  --color-accent-fill-rgb: 154, 116, 47;
+  --interactive: rgb(var(--color-accent-rgb));
+  --focus: rgb(var(--color-accent-rgb));
+}
+
+html[saved-theme]
+  body
+  :is(
+    .article-title,
+    .markdown-rendered h1,
+    .markdown-rendered h2,
+    .markdown-rendered h3,
+    .markdown-rendered h4,
+    .markdown-rendered h5,
+    .markdown-rendered h6
+  ) {
+  font-family: var(--headerFont);
+}
+
+html[saved-theme] body .article-title {
+  font-size: 2.08rem;
+  line-height: 1.18;
+  letter-spacing: 0;
+  font-weight: 600;
 }
 
 // Keep ordinary quotations compact in the published notes.

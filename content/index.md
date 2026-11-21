@@ -1,7 +1,6 @@
 ---
 title: Theology Notes
 ---
-
 Welcome to my theology notes.
 
 - [[Theology/01 - Prolegomena|Prolegomena]]

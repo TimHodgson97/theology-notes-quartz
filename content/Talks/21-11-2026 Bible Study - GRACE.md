@@ -53,8 +53,8 @@ This is where grace becomes personal. God knows the things I am ashamed of, incl
 
 There are two responses worth examining:
 
-- **Minimising my sin:** I explain it away, compare myself favourably with others, or insist that my circumstances excuse it.
-- **Believing my sin puts me beyond mercy:** I act as though Christ's death could cover other people's sins but cannot cover mine.
+- **Minimising my sin:** I explain it away, compare myself favourably with others, or insist that my circumstances excuse it. Do I place blame on others for the things I do? In situations of conflict that I cause, is my response, "Well, you shouldn't have reacted like that", and in situations where the other person instigated, is my response, "Well, if you hadn't done that I wouldn't have reacted this way"?
+- **Believing my sin puts me beyond mercy:** I act as though Christ's death could cover other people's sins but cannot cover mine. Thought processes like, "I'll just get clean then come to Jesus".
 
 The passage gives us grounds to confess honestly and trust God's love. Remembering our sin should bring us back to Christ and gratitude, rather than leave us rehearsing shame.
 
