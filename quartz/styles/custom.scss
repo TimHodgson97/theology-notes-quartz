@@ -46,6 +46,35 @@ html[saved-theme] body .article-title {
   font-weight: 600;
 }
 
+// Quartz's default internal links are filled labels. Scriptorium in Obsidian
+// presents note links as restrained, underlined accent text instead.
+html[saved-theme] body .markdown-rendered a.internal:not(.tag-link) {
+  color: var(--interactive);
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+  line-height: inherit;
+  font-weight: 400;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: currentcolor;
+  text-underline-offset: 0.15em;
+}
+
+html[saved-theme] body .markdown-rendered a.internal:not(.tag-link):hover {
+  color: color-mix(in srgb, var(--interactive) 82%, var(--text-primary));
+}
+
+html[saved-theme] body .markdown-rendered :is(ul, ol) {
+  margin-block: 1.04rem;
+  padding-inline-start: 2rem;
+}
+
+html[saved-theme] body .markdown-rendered li {
+  margin-block: 0.425rem;
+  line-height: 1.5;
+}
+
 // Keep ordinary quotations compact in the published notes.
 html[saved-theme] body .markdown-rendered blockquote {
   margin-block: 0.75rem;
