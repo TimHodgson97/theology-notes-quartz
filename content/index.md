@@ -3,6 +3,10 @@ title: Theology Notes
 ---
 Welcome to my theology notes.
 
+<!-- BEGIN AUTO INDEX -->
+
+## Theology
+
 - [[Theology/01 - Prolegomena|Prolegomena]]
 - [[Theology/02 - Bibliology - Doctrine of Revelation|Bibliology: Doctrine of Revelation]]
 - [[Theology/03 - Theology Proper - Doctrine of God|Theology Proper: Doctrine of God]]
@@ -19,3 +23,20 @@ Welcome to my theology notes.
 - [[Theology/14 - Ecclesiology - Doctrine of the Church|Ecclesiology: Doctrine of the Church]]
 - [[Theology/15 - Sacramentology - Doctrine of the Sacraments|Sacramentology: Doctrine of the Sacraments]]
 - [[Theology/16 - Eschatology - Doctrine of Last Things|Eschatology: Doctrine of Last Things]]
+
+## Pastoral
+
+### Exploring Hope
+
+- [[Pastoral/Exploring Hope/Session 1 - Essentials of the Faith|Session 1: Essentials of the Faith]]
+- [[Pastoral/Exploring Hope/Session 2 - Structure of the Church|Session 2: Structure of the Church]]
+
+## Talks
+
+- [[Talks/21-11-2026 Bible Study - GRACE|Grace Received, Grace Given]]
+
+## Apologetics
+
+*Notes will be added here.*
+
+<!-- END AUTO INDEX -->

@@ -3,5 +3,8 @@
 > 
 
 # Sacraments
+## Baptism
+
+## Communion
 
 # Discipleship
