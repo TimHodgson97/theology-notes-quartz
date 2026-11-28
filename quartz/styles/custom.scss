@@ -75,6 +75,14 @@ html[saved-theme] body .markdown-rendered li {
   line-height: 1.5;
 }
 
+// Give note dividers enough contrast against Scriptorium's paper background.
+.markdown-rendered hr {
+  height: 1px;
+  border: 0;
+  background: color-mix(in srgb, var(--border-subtle-1, var(--lightgray)) 80%, var(--text-muted));
+  margin-block: 1.5rem;
+}
+
 // Keep ordinary quotations compact in the published notes.
 html[saved-theme] body .markdown-rendered blockquote {
   margin-block: 0.75rem;
