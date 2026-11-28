@@ -75,12 +75,26 @@ html[saved-theme] body .markdown-rendered li {
   line-height: 1.5;
 }
 
-// Give note dividers enough contrast against Scriptorium's paper background.
+// Use a visible rule on Scriptorium's light paper and dark backgrounds.
 .markdown-rendered hr {
-  height: 1px;
+  height: 0;
   border: 0;
-  background: color-mix(in srgb, var(--border-subtle-1, var(--lightgray)) 80%, var(--text-muted));
+  border-block-start: 1px solid #b69f7c;
+  background: none;
   margin-block: 1.5rem;
+}
+
+html[saved-theme="dark"] .markdown-rendered hr {
+  border-block-start-color: #9c8969;
+}
+
+// Keep the divider's own spacing and give stacked headings room to breathe.
+.markdown-rendered hr + :is(h1, h2, h3, h4, h5, h6) {
+  margin-block-start: 0;
+}
+
+.markdown-rendered h1 + :is(h2, h3, h4, h5, h6) {
+  margin-block-start: 1.25rem;
 }
 
 // Keep ordinary quotations compact in the published notes.
